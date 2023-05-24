@@ -1,4 +1,4 @@
-# ASCII-ART-WEB
+# ASCII-ART-WEB-DOCKERIZE
 
 ## TABLE OF CONTENTS
 * General Info
@@ -7,15 +7,19 @@
 
 
 ### General Info
-* The aim of this project is to construct web-page based on the project ascii-art
-* Ascii-art-web is a program which consists in receiving a string as an argument and outputting the string in a graphic representation using ASCII.
+* The aim of this project is to add dockerfile based to the project ascii-art-web
+
 * Details of how code works can be found in .go files in the form of comments.
 
 ### Usage
-* To run the project you need to write "go run ."
-* For example:
+* To build the iimage you need to write: 
+
 ``` 
-go run . 
+docker build -t example .
+```
+After which to run the container you need to write:
+``` 
+docker run -p 8000:8000 example
 ```
 ### Contributors
 * @rzhampeis 
