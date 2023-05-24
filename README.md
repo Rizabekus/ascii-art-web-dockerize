@@ -7,17 +7,17 @@
 
 
 ### General Info
-* The aim of this project is to add dockerfile based to the project ascii-art-web
+* The aim of this project is to add dockerfile,create one image, and run one container to the previous project ascii-art-web
 
 * Details of how code works can be found in .go files in the form of comments.
 
 ### Usage
-* To build the iimage you need to write: 
+* To build the image you need to write: 
 
 ``` 
 docker build -t example .
 ```
-After which to run the container you need to write:
+Afterwards, to run the container you need to write:
 ``` 
 docker run -p 8000:8000 example
 ```
