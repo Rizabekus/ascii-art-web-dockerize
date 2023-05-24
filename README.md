@@ -19,7 +19,7 @@ docker build -t example .
 ```
 Afterwards, to run the container you need to write:
 ``` 
-docker run -p 8000:8000 example
+docker run -d -p 8000:8000 example
 ```
 ### Contributors
 * @rzhampeis 
