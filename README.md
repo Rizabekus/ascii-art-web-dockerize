@@ -21,6 +21,10 @@ Afterwards, to run the container you need to write:
 ``` 
 docker run -d -p 8000:8000 example
 ```
+After that just follow this link:
+```
+http://localhost:8000
+```
 ### Contributors
 * @rzhampeis 
 * @aomirhan  
