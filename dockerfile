@@ -1,5 +1,8 @@
 FROM golang:latest
 
+LABEL maintainer="Rizabek Zhampeisov, Azamat Omirhan, rizabekzhampeisov440@gmail.com"
+LABEL description ="simple docker for ascii art web"
+
 WORKDIR /app
 
 COPY ./ ./
